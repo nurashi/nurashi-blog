@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nurashi's blog</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.css">
+</head>
+
+<body>
+    <header>
+        <a class="current" href="{% url "blog_index" %}">
+            <h1>Nurashi's blog</h1>
+        </a>
+        <p>My personal blog</p>
+    </header>
+    <main>
+        {% block page_title %}{% endblock page_title %}
+        {% block page_content %}{% endblock page_content %}
+    </main>
+    <footer>
+        <small>&copy; 2024 Nurasyl Orazbek</small>
+    </footer>
+</body>
+
+</html>
