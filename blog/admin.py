@@ -12,6 +12,13 @@ class CategoryAdmin(admin.ModelAdmin):
 
 
 class PostAdmin(admin.ModelAdmin):
+    """
+
+    This module contains the admin configuration for the blog application.
+
+    Classes:
+        PostAdmin: Customizes the admin interface for the Post model.
+    """
 
     pass
 
